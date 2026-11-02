@@ -1,0 +1,21 @@
+name: Proponer una idea
+description: Un ejercicio, una pantalla o una mejora que te gustaría ver
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué necesitas
+      description: Cuéntanos qué quieres hacer en la app y por qué hoy no puedes o te cuesta.
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Cómo te imaginas la solución
+  - type: checkboxes
+    id: ayuda
+    attributes:
+      label: Ayuda
+      options:
+        - label: Me gustaría trabajar en esta idea yo mismo o yo misma

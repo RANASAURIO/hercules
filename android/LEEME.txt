@@ -1,0 +1,6 @@
+Proyecto Android de Hércules (paquete com.hierro.gym).
+
+No uses Gradle ni Android Studio: este proyecto se compila con apktool.
+Desde la raíz del proyecto:  python tools/build_apk.py
+El código nativo está en smali/com/hierro/gym/ (ver docs/ARQUITECTURA.md, sección Android).
+assets/index.html y los íconos de res/mipmap-* se regeneran solos en cada compilación.

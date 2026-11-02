@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Hércules: construir web", "type": "shell", "command": "python build.py", "group": "build", "problemMatcher": [] },
+    { "label": "Hércules: ver en el navegador (localhost:8765)", "type": "shell", "command": "python -m http.server 8765 --directory pwa", "isBackground": true, "problemMatcher": [] },
+    { "label": "Hércules: construir APK", "type": "shell", "command": "python tools/build_apk.py", "group": { "kind": "build", "isDefault": true }, "problemMatcher": [] },
+    { "label": "Hércules: pruebas", "type": "shell", "command": "npm test", "options": { "cwd": "${workspaceFolder}/tests" }, "group": "test", "problemMatcher": [] },
+    { "label": "Hércules: descargar herramientas del APK", "type": "shell", "command": "python tools/get_tools.py", "problemMatcher": [] }
+  ]
+}

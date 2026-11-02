@@ -1,0 +1,23 @@
+# Se generan con build.py / build_apk.py
+dist/
+pwa/
+apk/
+build/
+hercules-app.zip
+android/build/
+android/assets/
+tools/bin/
+tests/node_modules/
+__pycache__/
+
+# La llave de firma y su contraseña nunca van al repositorio: guárdalas aparte
+keystore/
+*.jks
+*.keystore
+clave.txt
+
+# Configuración personal del editor y del sistema
+.claude/settings.local.json
+CLAUDE.local.md
+.DS_Store
+Thumbs.db

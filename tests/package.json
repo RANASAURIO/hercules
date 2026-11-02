@@ -1,0 +1,11 @@
+{
+  "name": "hercules-tests",
+  "private": true,
+  "description": "Pruebas automáticas de la app Hércules",
+  "scripts": {
+    "test": "node smoke.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
