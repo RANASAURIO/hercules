@@ -16,8 +16,6 @@ keystore/
 *.keystore
 clave.txt
 
-# Configuración personal del editor y del sistema
-.claude/settings.local.json
-CLAUDE.local.md
+# Archivos del sistema
 .DS_Store
 Thumbs.db
